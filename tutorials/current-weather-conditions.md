@@ -9,12 +9,14 @@ First, edit `index.html` and add a basic form:
 ```
 <form>
   <label>Enter a U.S. city</label>
-  <input id="weatherInput" type="text"></input><br/>
-  <input id="weatherSubmit" type="submit" value="Submit"></input>
+  <input id="weatherInput" type="text" /><br/>
+  <input id="weatherSubmit" type="submit" value="Submit" />
 </form>
 <div id="weatherResults">
 </div>
 ```
+
+Be sure to put this in the right place in the HTML. `<script>` tags always go at the end of the `<body>`.
 
 ## Fetching the weather
 
